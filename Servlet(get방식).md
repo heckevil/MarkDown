@@ -85,6 +85,9 @@ RequestDispather 변수명 = request.getRequestDispatcher(jsp);
    주소?name=홍길동&age=20
    <!-- 키(key)와 밸류(Value)로만 나뉘어져 있어서 순서도 상관X
    		주소?age=20&name=홍길동 -->
+   
+   list.jsp 안 get방식
+   href="/detail?no=<%=i%>"
    ```
 
 
