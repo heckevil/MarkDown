@@ -8,8 +8,12 @@ getAttribute는 setAttribute한 데이터를 가져온다
 
 get-set 한묶음
 
+getAttribute는 데이터값을 Object로 반환한다.
+
+즉, 원하는 형변환이 필수. 애가 바보라서 자동 형변환이 아니라 무조건 object빼내기 때문
+
 ```java
-.getAttridute("데이터명")
+=(원하는형)request.getAttridute("데이터명")
     //데이터명으로 데이터를 받겠다
 ```
 
@@ -29,8 +33,13 @@ Servlet이 jsp 로부터 자료를 받기 위해쓴다
 
 HTML으로 부터 넘어오기때문에 JSP와 Servlet둘다 사용가능
 
+
+
+
+
 ```java
 .getParameter("키,jsp안 name")
+    
 ```
 
 <img src="C:\Users\heck_\Desktop\Spring\Til\2.png">
